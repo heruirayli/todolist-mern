@@ -1,0 +1,22 @@
+{
+  "name": "todolist-mern",
+  "version": "1.0.0",
+  "description": "todo list app for mern stack practice",
+  "license": "MIT",
+  "author": "Herui Ray Li",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
